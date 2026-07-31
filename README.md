@@ -238,15 +238,3 @@ python3 -m unittest tests.test_jsonpl -v
 
 （環境若能安裝 pytest，同一份檔案可直接用 `pytest tests/test_jsonpl.py -v` 執行，不需修改。目前共 50 個測試。）
 
----
-
-## 已知限制
-
-- 不支援可變參數（`*args` 風格的宣告）
-- 不支援模板繼承／組合（每個 `.jsonpl` 都要從頭完整寫）
-- `send_json` / `rewrite` / `add_back` 都沒有原生批次 API（要自己寫迴圈）
-- `add_back` 重建 `.jsonpl` 時，樣板區的排版/註解不會被保留（宣告區會）
-- 錯誤訊息目前只有中文
-- 尚未打包成 PyPI 套件（沒有 `pyproject.toml`、版本號）
-
-這些是目前規劃中、還沒動工的方向，詳情可以回頭翻對話紀錄或直接提出新需求。
