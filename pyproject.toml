@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jsonpl"
+version = "0.1.0"
+description = "型別化的 JSON 模板產生器：欄位型別驗證、運算式（含隨機性）、schema 與既有 json 雙向同步"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [
+    { name = "TODO: Ddradfw" }
+]
+keywords = ["json", "template", "config", "schema", "codegen", "gamedev"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Code Generators",
+    "Topic :: Text Processing :: Markup",
+]
+
+[project.urls]
+Homepage = "[project.urls]
+Homepage = "https://github.com/Ddradfw/jsonpl"
+Repository = "https://github.com/Ddradfw/jsonpl"
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.setuptools]
+py-modules = ["jsonpl"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

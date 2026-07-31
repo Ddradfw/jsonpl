@@ -1,0 +1,28 @@
+# Python 建置/快取產物
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+build/
+dist/
+*.egg
+
+# 虛擬環境
+.venv/
+venv/
+env/
+
+# 測試/覆蓋率產物
+.pytest_cache/
+.coverage
+htmlcov/
+
+# macOS
+.DS_Store
+
+# 編輯器
+.vscode/
+.idea/
+
+# demo/測試執行時產生的輸出（.jsonpl 樣板要留，但產生出來的 .json 不留）
+examples/files/data/*.json

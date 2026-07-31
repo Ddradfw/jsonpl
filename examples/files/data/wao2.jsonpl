@@ -1,0 +1,11 @@
+required_name = str
+Replace = True
+
+{
+    "as": int,
+    "nested": {
+        "x": str
+    },
+    "tags": [str],
+    "desc": str?
+}

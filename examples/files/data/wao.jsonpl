@@ -1,0 +1,9 @@
+required_name = str
+Replace = False
+
+{
+    "as": int,
+    "nested": {
+        "x": str
+    }
+}

@@ -1,0 +1,14 @@
+required_name = str
+Replace = True
+required_else = (
+    wo = int,
+    add_num = int
+)
+
+{
+    "nested": {
+        "x": str
+    },
+    "sas" = work(wo + add_num).repeat(i),
+    "rand_results" = work(random.randint(1, 100)).repeat(i)
+}
